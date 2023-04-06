@@ -27,7 +27,7 @@ import javafx.stage.Stage;
 public class Sadic extends Application {
     Connection con;
     String Url ="jdbc:derby://localhost:1527/Sadic_joint";
-    String username = "sadic", password="sadic";
+    String username = "sos", password="sos";
     
     
     @Override
