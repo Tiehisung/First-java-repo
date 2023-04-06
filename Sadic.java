@@ -34,7 +34,7 @@ public class Sadic extends Application {
     public void start(Stage primaryStage) {
         try {
             con = DriverManager.getConnection(Url, username, password);
-            System.out.println("Connect successfully ! ");
+            System.out.println("Connect successfully !");
             con.close();
                
             
