@@ -39,7 +39,7 @@ public class Sadic extends Application {
                
             
         } catch (SQLException ex) {
-            System.out.println("Connect failed ! ");
+            System.out.println("Connect failed! ");
         }
 
         Label name = new Label("Customer name".toUpperCase());
